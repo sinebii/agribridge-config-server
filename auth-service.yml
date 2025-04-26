@@ -14,9 +14,9 @@ jwt:
       resource-id: authenticationClientId
 keycloak:
   realm: agribridge-app
-  domain: agribridge.com
+  domain: keycloak.agribridge.com
   adminClientId: admin-cli
-  adminClientSecret: secret
+  adminClientSecret: tYc9XSyH2kmKJWrzMRHU34eunwt6XtRW
   client: authenticationClientId
   urls:
     auth: https://${keycloak.domain}
