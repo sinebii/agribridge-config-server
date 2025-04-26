@@ -16,7 +16,7 @@ keycloak:
   realm: agribridge-app
   domain: localhost:8181
   adminClientId: admin-cli
-  adminClientSecret: tYc9XSyH2kmKJWrzMRHU34eunwt6XtRW
+  adminClientSecret: bjE34TCLFSw6DeN7tfCtGkKnAv8vGk0X
   client: authenticationClientId
   urls:
     auth: http://${keycloak.domain}
