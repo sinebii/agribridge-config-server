@@ -19,4 +19,4 @@ keycloak:
   adminClientSecret: tYc9XSyH2kmKJWrzMRHU34eunwt6XtRW
   client: authenticationClientId
   urls:
-    auth: https://${keycloak.domain}
+    auth: http://${keycloak.domain}
