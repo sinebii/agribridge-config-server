@@ -14,7 +14,7 @@ jwt:
       resource-id: authenticationClientId
 keycloak:
   realm: agribridge-app
-  domain: keycloak.agribridge.com
+  domain: localhost:8181
   adminClientId: admin-cli
   adminClientSecret: tYc9XSyH2kmKJWrzMRHU34eunwt6XtRW
   client: authenticationClientId
